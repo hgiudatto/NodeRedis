@@ -1,0 +1,26 @@
+{
+  "name": "noderedis",
+  "version": "1.0.0",
+  "description": "Redis clone in Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "getkey": "./bin/getkey.js",
+    "setkey": "./bin/setkey.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hgiudatto/NodeRedis.git"
+  },
+  "author": "hgiudatto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hgiudatto/NodeRedis/issues"
+  },
+  "homepage": "https://github.com/hgiudatto/NodeRedis#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
